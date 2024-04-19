@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="<KEY>" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body class="body">
+    <div class="container">
+        <hr>
+        <h1 class="header1">Calculator</h1>
+        <hr>
+        <input type="text" class="number">
+        <Br>
+        <br>
+        <input type="text" class="symbol">
+        <br>
+        <br>
+        <input type="text" class="secondNumber">
+        <br>
+        <br>
+        <button class="submit" onclick="calculate()">Calculate</button>
+        <hr>
+        <br>
+        <br>
+        <div class="answer">
+            <h3 class="answer">Answer: </h3>
+            <h2 class="realAnswer"></h2>
+        </div>
+        <h2 class="error" style="display: none;">Please enter a valid input</h2>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
